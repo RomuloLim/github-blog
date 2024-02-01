@@ -4,11 +4,11 @@ import { defaultTheme } from "./styles/themes/default";
 import { GlobalStyle } from "./styles/global";
 
 export function App() {
-  return (
-    <ThemeProvider theme={defaultTheme}>
-      <GlobalStyle />
+	return (
+		<ThemeProvider theme={defaultTheme}>
+			<GlobalStyle />
 
-      <h1> Hello world</ h1>
-    </ThemeProvider>
-  )
+			<h1> Hello world</ h1>
+		</ThemeProvider>
+	);
 }
