@@ -4,9 +4,12 @@
         "es2021": true
     },
     "extends": [
+        "plugin:react/recommended",
+        "plugin:react-hooks/recommended",
         "eslint:recommended",
+        "standard",
         "plugin:@typescript-eslint/recommended",
-        "plugin:react/recommended"
+        "plugin:prettier/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -15,31 +18,28 @@
     },
     "plugins": [
         "@typescript-eslint",
-        "react"
+        "react",
+        "prettier"
     ],
     "rules": {
-        "indent": [
-            "error",
-            "tab"
-        ],
-        "linebreak-style": [
-            "error",
-            "windows"
-        ],
-        "quotes": [
-            "error",
-            "double"
-        ],
-        "semi": [
-            "error",
-            "always"
-        ],
-        "react/jsx-uses-react": "off",
-        "react/react-in-jsx-scope": "off"
-    },
+        "react/self-closing-comp": "error",
+        "prettier/prettier": [0, {
+          "printWidth": 80,
+          "tabWidth": 2,
+          "singleQuote": false,
+          "trailingComma": "all",
+          "arrowParens": "always",
+          "semi": true,
+          "endOfLine": "auto"
+        }],
+        "react/react-in-jsx-scope": "off",
+        "react/prop-types": "off",
+        "react/no-unknown-property": "error"
+      },
     "settings": {
         "react": {
           "version": "detect"
-        }
+        },
+        "import/parser": "@typescript-eslint/parser"
       }
 }
