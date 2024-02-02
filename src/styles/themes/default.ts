@@ -14,4 +14,19 @@ export const defaultTheme = {
   profile: "#0B1B2B",
   background: "#071422",
   input: "#040F1A",
+
+  fonts: {
+    title: {
+      lg: "2.4rem",
+      md: "2rem",
+      sm: "1.8rem",
+    },
+
+    text: {
+      md: "1.6rem",
+      sm: "1.4rem" 
+    },
+
+    link: "1.2rem"
+  }
 } as const;

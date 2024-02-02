@@ -1,19 +1,13 @@
-import { HeaderContainer, Logo } from "./styles";
+import { HeaderContainer, Logo, LogoContainer } from "./styles";
 
 import logo from "../../../assets/logo.svg";
 
-export function Header({ children }: { children: React.ReactNode }) {
+export function Header() {
     return (
         <HeaderContainer>
-            <Logo src={logo} alt="logo" />
-            <div style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                width: "100%",
-            }}>
-                {children}
-            </div>
+            <LogoContainer>
+                <Logo src={logo} alt="logo" />
+            </LogoContainer>
         </HeaderContainer>
     );
 }

@@ -1,10 +1,32 @@
-import { ProfileHeader } from "../components/ProfileHeader";
+import { Header } from "../components/Header";
+import { ProfileCard } from "../components/ProfileCard";
+
+import { ProfileContainer } from "./styles";
 
 export function Home() {
   return (
     <>
-      <ProfileHeader />
-      <h1> Home</h1>
+      <Header />
+      <ProfileContainer>
+        <ProfileCard />
+      </ProfileContainer>
+      <div>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+        <h1>Home</h1>
+      </div>
     </>
   );
 }

@@ -22,4 +22,25 @@ export const GlobalStyle = createGlobalStyle`
     body, input, button, textarea {
         font: 400 1rem "Nunito", sans-serif;
     }
+
+    p {
+        color: ${props => props.theme.text};
+        font-size: ${props => props.theme.fonts.text.sm};
+    }
+
+    span {
+        color: ${props => props.theme.subtitle};
+        font-size: ${props => props.theme.fonts.text.sm};
+    }
+
+    h1 {
+        font-size: ${props => props.theme.fonts.title.lg};
+        color: ${props => props.theme.title};
+    }
+
+    a {
+        text-decoration: none;
+        color: ${props => props.theme.blue};
+        font-size: ${props => props.theme.fonts.link};
+    }
 `;
