@@ -17,16 +17,16 @@ export const defaultTheme = {
 
   fonts: {
     title: {
-      lg: "2.4rem",
-      md: "2rem",
-      sm: "1.8rem",
+      lg: "1.5rem",
+      md: "1.25rem",
+      sm: "1.125rem",
     },
 
     text: {
-      md: "1.6rem",
-      sm: "1.4rem" 
+      md: "1rem",
+      sm: "0.875rem" 
     },
 
-    link: "1.2rem"
+    link: "0.75rem"
   }
 } as const;

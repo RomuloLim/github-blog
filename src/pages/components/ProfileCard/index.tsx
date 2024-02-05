@@ -20,7 +20,7 @@ export function ProfileCard() {
                         <Link href="https://github.com/RomuloLim">
                             GITHUB
                             <HiExternalLink
-                                size="1.4rem"
+                                size="1rem"
                             />
                         </Link>
                     </TitleContent>
@@ -41,14 +41,14 @@ export function ProfileCard() {
                             size="1.4rem"
                             color={theme.label}
                         />
-                        <span>RomuloLim</span>
+                        <span>Multintegrada</span>
                     </IconInfo>
                     <IconInfo>
                         <HiUsers
                             size="1.4rem"
                             color={theme.label}
                         />
-                        <span>RomuloLim</span>
+                        <span>32 seguidores</span>
                     </IconInfo>
                 </ProfileFooter>
             </ProfileInfoContainer>

@@ -6,9 +6,8 @@ export const Card = styled.div`
   justify-content: space-around;
   align-items: center;
   gap: 1.2rem;
-  padding: 2.4rem;
+  padding: 2.5rem ;
   border-radius: 0.8rem;
-  margin: 0 20%;
   `
 
   export const TitleRow = styled.div`
@@ -32,15 +31,16 @@ export const TitleContent = styled.div`
 
   export const Link = styled.a`
     display: flex;
-    gap: 0.8rem;
+    gap: 0.3rem;
     font-weight: bold;
   `
 
   export const ProfileInfoContainer = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
-    padding: 1%.2rem 0;
+    justify-content: space-between;
+    padding-top: 1rem;
+    height: 100%;
   `
 
   export const ProfileFooter = styled.div`

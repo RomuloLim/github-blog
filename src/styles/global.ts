@@ -8,9 +8,10 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     :focus {
-            outline: 0;
+            outline: none;
 
             box-shadow: 0 0 0 2px ${(props) => props.theme.blue};
+            transition: box-shadow 0.1s ease-in;
     }
     
     body {
@@ -21,6 +22,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body, input, button, textarea {
         font: 400 1rem "Nunito", sans-serif;
+        transition: box-shadow 0.1s ease-out;
     }
 
     p {
