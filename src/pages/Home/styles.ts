@@ -34,3 +34,11 @@ export const SearchContainer = styled.div`
         }
     }
 `
+
+export const ArticlesContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    width: 50%;
+`
