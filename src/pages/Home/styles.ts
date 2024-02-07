@@ -36,9 +36,9 @@ export const SearchContainer = styled.div`
 `
 
 export const ArticlesContainer = styled.div`
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
     margin-top: 2rem;
-    width: 50%;
+    width: 100%;
 `
