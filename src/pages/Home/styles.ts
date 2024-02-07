@@ -34,3 +34,11 @@ export const SearchContainer = styled.div`
         }
     }
 `
+
+export const ArticlesContainer = styled.div`
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+    width: 100%;
+`
