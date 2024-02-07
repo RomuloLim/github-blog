@@ -1,5 +1,5 @@
 <h1 align="center">
-  
+  <img alt="Github Blog" src="https://github.com/RomuloLim/github-blog/assets/37809622/6b0cfea0-bf2e-4570-bc99-4a3724d77fc4" width="100%" />
 </h1>
 
 <h3 align="center">
