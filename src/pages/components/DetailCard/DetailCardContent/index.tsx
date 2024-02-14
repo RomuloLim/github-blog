@@ -1,10 +1,6 @@
 import { ReactNode } from "react";
 
-type DetailCardContentProps = {
-    children: ReactNode;
-}
-
-export function DetailCardContent({ children }: DetailCardContentProps) {
+export function DetailCardContent({ children }: { children: ReactNode }) {
     return (
         <>
             {children}
