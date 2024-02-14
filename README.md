@@ -9,21 +9,12 @@
 <p align="center">List your issues and profile user</p>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/RomuloLim/github-blog?color=%232677a8">
-
-  <a href="https://www.linkedin.com/in/romulolim/" target="_blank" rel="noopener noreferrer">
-    <img alt="Made by" src="https://img.shields.io/badge/made%20by-Rômulo-2677a8">
-  </a>
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/RomuloLim/github-blog?color=%232677a8">
-
-  <a href="https://github.com/RomuloLim/github-blog/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/RomuloLim/github-blog?color=%232677a8">
-  </a>
-
-  <a href="https://github.com/RomuloLim/github-blog/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/RomuloLim/github-blog?color=%232677a8">
-  </a>
+  <a href="https://img.shields.io/github/languages/top/RomuloLim/github-blog?color=%232677a8"><img src="https://img.shields.io/github/languages/top/RomuloLim/github-blog?color=%232677a8" alt="Top Language"></a>
+  <a href="https://github.com/RomuloLim/github-blog/commits/main"><img src="https://img.shields.io/github/last-commit/RomuloLim/github-blog?color=%232677a8" alt="Last commit"></a>
+  <a href="https://www.linkedin.com/in/romulolim/"><img src="https://img.shields.io/badge/made%20by-Rômulo-2677a8" alt="Made by"></a>
+  <a href="https://github.com/RomuloLim/github-blog/commits/main"><img src="https://img.shields.io/github/last-commit/RomuloLim/github-blog?color=%232677a8" alt="Last commit"></a>
+  <a href="https://github.com/RomuloLim/github-blog/issues"><img src="https://img.shields.io/github/issues/RomuloLim/github-blog?color=%232677a8" alt="Repository issues"></a>
+  <a href="https://wakatime.com/badge/user/0579b38b-c5bf-4e3e-b1b7-e067474bd9fa/project/018d60fd-58e7-4cd1-a70e-43b4bebabf7a"><img src="https://wakatime.com/badge/user/0579b38b-c5bf-4e3e-b1b7-e067474bd9fa/project/018d60fd-58e7-4cd1-a70e-43b4bebabf7a.svg" alt="wakatime"></a>  
 </p>
 
 <p align="center">
@@ -31,7 +22,6 @@
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-license">License</a>
 </p>
 
 ## ✅ About the project
@@ -105,7 +95,8 @@ After your pull request is merged, you can delete your branch
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. -->
 
----
+<br><br><br>
 
-
-Made with 💜 by Rômulo Lima 🤝 [See my linkedin](https://www.linkedin.com/in/romulolim/)
+<p align="center">
+  Made with 💜 by Rômulo Lima 🤝 <a href="https://www.linkedin.com/in/romulolim/">See my Linkedin</a>
+</p>
