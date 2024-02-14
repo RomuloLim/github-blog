@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CardContainer = styled.div`
+export const CardContainer = styled.a`
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -8,6 +8,13 @@ export const CardContainer = styled.div`
     border: none;
     border-radius: 6px;
     background-color: ${props => props.theme.post};
+
+    &:hover {
+        box-shadow: 0 0 8px 0 ${props => props.theme.shadow};
+        transform: scale(1.02);
+
+        transition: 0.3s;
+    }
 
     div {
         display: flex;
