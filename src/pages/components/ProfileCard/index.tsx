@@ -5,44 +5,47 @@ import { HiUsers } from "react-icons/hi2";
 
 import { DetailCard } from "../DetailCard";
 import { Link } from "../Link";
+import { HeaderCard } from "../HeaderCard";
 
 export function ProfileCard() {
 
     return (
-        <DetailCard.Root
-            image="https://avatars.githubusercontent.com/u/37809622?v=4"
-        >
-            <DetailCard.Header>
-                <h1>Rômulo Lima</h1>
-                <Link href="https://github.com/RomuloLim">
-                    GITHUB
-                    <HiExternalLink
-                        size="1rem"
+        <HeaderCard>
+            <DetailCard.Root
+                image="https://avatars.githubusercontent.com/u/37809622?v=4"
+            >
+                <DetailCard.Header>
+                    <h1>Rômulo Lima</h1>
+                    <Link href="https://github.com/RomuloLim">
+                        GITHUB
+                        <HiExternalLink
+                            size="1rem"
+                        />
+                    </Link>
+                </DetailCard.Header>
+
+                <DetailCard.Content>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis alias deleniti nostrum officiis, eos placeat accusamus aut praesentium sapiente natus blanditiis eum quod nobis id ipsum amet unde iusto quasi!</p>
+                </DetailCard.Content>
+
+                <DetailCard.Footer>
+                    <DetailCard.Icon
+                        icon={FaGithub}
+                        label="RomuloLim"
                     />
-                </Link>
-            </DetailCard.Header>
 
-            <DetailCard.Content>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis alias deleniti nostrum officiis, eos placeat accusamus aut praesentium sapiente natus blanditiis eum quod nobis id ipsum amet unde iusto quasi!</p>
-            </DetailCard.Content>
+                    <DetailCard.Icon
+                        icon={FaBuilding}
+                        label="Multintegrada"
+                    />
 
-            <DetailCard.Footer>
-                <DetailCard.Icon
-                    icon={FaGithub}
-                    label="RomuloLim"
-                />
+                    <DetailCard.Icon
+                        icon={HiUsers}
+                        label="32 seguidores"
+                    />
 
-                <DetailCard.Icon
-                    icon={FaBuilding}
-                    label="Multintegrada"
-                />
-
-                <DetailCard.Icon
-                    icon={HiUsers}
-                    label="32 seguidores"
-                />
-
-            </DetailCard.Footer>
-        </DetailCard.Root>
+                </DetailCard.Footer>
+            </DetailCard.Root>
+        </HeaderCard>
     );
 }

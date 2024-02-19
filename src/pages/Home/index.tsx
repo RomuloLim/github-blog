@@ -2,14 +2,12 @@ import { ArticleCard } from "../components/ArticleCard";
 import { Input } from "../components/Input";
 import { ProfileCard } from "../components/ProfileCard";
 
-import { ProfileContainer, SearchContainer, Separator, ArticlesContainer } from "./styles";
+import { SearchContainer, Separator, ArticlesContainer } from "./styles";
 
 export function Home() {
   return (
     <>
-      <ProfileContainer>
-        <ProfileCard />
-      </ProfileContainer>
+      <ProfileCard />
 
       <Separator />
 

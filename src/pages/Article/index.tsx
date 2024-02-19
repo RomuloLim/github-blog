@@ -1,7 +1,11 @@
-import { Header } from "../components/Header";
+import { HeaderCard } from "../components/HeaderCard";
 
 export function Article() {
   return (
-    <h1>AA</h1>
+    <>
+      <HeaderCard>
+        <h1>Article</h1>
+      </HeaderCard>
+    </>
   );
 }
