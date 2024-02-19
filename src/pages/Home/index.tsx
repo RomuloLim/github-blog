@@ -1,40 +1,36 @@
 import { ArticleCard } from "../components/ArticleCard";
-import { Header } from "../components/Header";
 import { Input } from "../components/Input";
 import { ProfileCard } from "../components/ProfileCard";
 
-import { HomeContainer, ProfileContainer, SearchContainer, Separator, ArticlesContainer } from "./styles";
+import { ProfileContainer, SearchContainer, Separator, ArticlesContainer } from "./styles";
 
 export function Home() {
   return (
     <>
-      <Header />
-      <HomeContainer>
-        <ProfileContainer>
-          <ProfileCard />
-        </ProfileContainer>
+      <ProfileContainer>
+        <ProfileCard />
+      </ProfileContainer>
 
-        <Separator />
+      <Separator />
 
-        <SearchContainer>
-          <div>
-            <h3>Publicações</h3>
-            <span>6 publicações</span>
-          </div>
+      <SearchContainer>
+        <div>
+          <h3>Publicações</h3>
+          <span>6 publicações</span>
+        </div>
 
-          <Input placeholder="Buscar conteúdo" />
-        </SearchContainer>
+        <Input placeholder="Buscar conteúdo" />
+      </SearchContainer>
 
-        <Separator />
+      <Separator />
 
-        <ArticlesContainer>
-          {
-            Array.from({ length: 12 }).map((_, index) => (
-              <ArticleCard key={index} />
-            ))
-          }
-        </ArticlesContainer>
-      </HomeContainer>
+      <ArticlesContainer>
+        {
+          Array.from({ length: 12 }).map((_, index) => (
+            <ArticleCard key={index} />
+          ))
+        }
+      </ArticlesContainer>
     </>
   );
 }

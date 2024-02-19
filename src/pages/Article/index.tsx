@@ -1,3 +1,7 @@
+import { Header } from "../components/Header";
+
 export function Article() {
-  return <h1>Article</h1>;
+  return (
+    <h1>AA</h1>
+  );
 }

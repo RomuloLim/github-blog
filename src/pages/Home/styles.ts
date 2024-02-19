@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-export const HomeContainer = styled.div`
-    padding: 0 20%;
-`
-
 export const ProfileContainer = styled.div`
     display: flex;
     width: 100%;
